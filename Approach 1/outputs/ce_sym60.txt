@@ -1,0 +1,198 @@
+INFO :      aggregate_evaluate: received 0 results and 10 failures
+INFO :      
+INFO :      [SUMMARY]
+INFO :      Run finished 100 round(s) in 1891.35s
+INFO :          History (loss, distributed):
+INFO :                  round 1: 2.296547555178404
+INFO :                  round 2: 2.1897887900471686
+INFO :                  round 3: 2.092786576971412
+INFO :                  round 4: 2.0147548653185368
+INFO :                  round 5: 1.9874557558447123
+INFO :                  round 6: 1.95035159252584
+INFO :                  round 7: 1.9219356216490269
+INFO :                  round 8: 1.8875011906027794
+INFO :                  round 9: 1.8667989876121283
+INFO :                  round 10: 1.86079343855381
+INFO :                  round 11: 1.8376762084662914
+INFO :                  round 12: 1.8284118559211493
+INFO :                  round 13: 1.8269261185079813
+INFO :                  round 14: 1.810095203667879
+INFO :                  round 15: 1.7807420194149017
+INFO :                  round 16: 1.789050327986479
+INFO :                  round 17: 1.7731104213744402
+INFO :                  round 18: 1.7588075447827578
+INFO :                  round 19: 1.7579620808362961
+INFO :                  round 20: 1.7567073203623296
+INFO :                  round 21: 1.7556578304618597
+INFO :                  round 22: 1.7294613551348448
+INFO :                  round 23: 1.730759162083268
+INFO :                  round 24: 1.7316674929112197
+INFO :                  round 25: 1.7188300121575595
+INFO :                  round 26: 1.721291084587574
+INFO :                  round 27: 1.7260507203638553
+INFO :                  round 28: 1.7062013573944568
+INFO :                  round 29: 1.707840460911393
+INFO :                  round 30: 1.7016980193555356
+INFO :                  round 31: 1.7126788102090358
+INFO :                  round 32: 1.7113817557692528
+INFO :                  round 33: 1.7104999855160714
+INFO :                  round 34: 1.7018679786473512
+INFO :                  round 35: 1.698645667359233
+INFO :                  round 36: 1.6913616739213466
+INFO :                  round 37: 1.7155001487582922
+INFO :                  round 38: 1.6923251811414957
+INFO :                  round 39: 1.7093244098126887
+INFO :                  round 40: 1.7149436742067337
+INFO :                  round 41: 1.707499009743333
+INFO :                  round 42: 1.7154139690101147
+INFO :                  round 43: 1.719900995120406
+INFO :                  round 44: 1.7074290808290242
+INFO :                  round 45: 1.7144483402371407
+INFO :                  round 46: 1.7260688163340092
+INFO :                  round 47: 1.727091845870018
+INFO :                  round 48: 1.7400792440399528
+INFO :                  round 49: 1.7531896449625493
+INFO :                  round 50: 1.7613525439053774
+INFO :                  round 51: 1.7527133762836455
+INFO :                  round 52: 1.7662245057523251
+INFO :                  round 53: 1.775011532753706
+INFO :                  round 54: 1.786399094760418
+INFO :                  round 55: 1.7927097123116256
+INFO :                  round 56: 1.7980771526694297
+INFO :                  round 57: 1.8055571340024472
+INFO :                  round 58: 1.8241534817963838
+INFO :                  round 59: 1.8298027008771895
+INFO :                  round 60: 1.8569897197186946
+INFO :                  round 61: 1.8599971000105142
+INFO :                  round 62: 1.867585975676775
+INFO :                  round 63: 1.881876165047288
+INFO :                  round 64: 1.8877491727471352
+INFO :                  round 65: 1.9091717947274447
+INFO :                  round 66: 1.9076915964484216
+INFO :                  round 67: 1.922014931216836
+INFO :                  round 68: 1.950110160931945
+INFO :                  round 69: 1.9617077700793744
+INFO :                  round 70: 1.973126158863306
+INFO :                  round 71: 1.9918454844504594
+INFO :                  round 72: 2.014539980143309
+INFO :                  round 73: 2.017596225813031
+INFO :                  round 74: 2.0533050429075956
+INFO :                  round 75: 2.057343664392829
+INFO :                  round 76: 2.078380079194903
+INFO :                  round 77: 2.104661428928375
+INFO :                  round 78: 2.123626519739628
+INFO :                  round 79: 2.139327749237418
+INFO :                  round 80: 2.1628904443234207
+INFO :                  round 81: 2.174843840673566
+INFO :                  round 82: 2.1981374882161617
+INFO :                  round 83: 2.221960361674428
+INFO :                  round 84: 2.2528256464749576
+INFO :                  round 85: 2.2761936251074077
+INFO :                  round 86: 2.30672865845263
+INFO :                  round 87: 2.3224710032343863
+INFO :                  round 88: 2.341699069738388
+INFO :                  round 89: 2.372930553741753
+INFO :                  round 90: 2.4011949848383667
+INFO :                  round 91: 2.431826701760292
+INFO :                  round 92: 2.4764002829790117
+INFO :                  round 93: 2.4949287243187426
+INFO :                  round 94: 2.5193261951208115
+INFO :                  round 95: 2.5459202960133553
+INFO :                  round 96: 2.6096801750361918
+INFO :          History (metrics, distributed, evaluate):
+INFO :          {'accuracy': [(1, np.float64(0.129)),
+INFO :                        (2, np.float64(0.2916)),
+INFO :                        (3, np.float64(0.3713)),
+INFO :                        (4, np.float64(0.411)),
+INFO :                        (5, np.float64(0.4333)),
+INFO :                        (6, np.float64(0.4512)),
+INFO :                        (7, np.float64(0.4592)),
+INFO :                        (8, np.float64(0.4659)),
+INFO :                        (9, np.float64(0.4767)),
+INFO :                        (10, np.float64(0.4843)),
+INFO :                        (11, np.float64(0.4999)),
+INFO :                        (12, np.float64(0.4947)),
+INFO :                        (13, np.float64(0.506)),
+INFO :                        (14, np.float64(0.5123)),
+INFO :                        (15, np.float64(0.518)),
+INFO :                        (16, np.float64(0.5222)),
+INFO :                        (17, np.float64(0.5268)),
+INFO :                        (18, np.float64(0.5228)),
+INFO :                        (19, np.float64(0.527)),
+INFO :                        (20, np.float64(0.5234)),
+INFO :                        (21, np.float64(0.5305)),
+INFO :                        (22, np.float64(0.5298)),
+INFO :                        (23, np.float64(0.5352)),
+INFO :                        (24, np.float64(0.529)),
+INFO :                        (25, np.float64(0.5334)),
+INFO :                        (26, np.float64(0.5345)),
+INFO :                        (27, np.float64(0.5321)),
+INFO :                        (28, np.float64(0.5289)),
+INFO :                        (29, np.float64(0.5284)),
+INFO :                        (30, np.float64(0.5291)),
+INFO :                        (31, np.float64(0.5236)),
+INFO :                        (32, np.float64(0.5213)),
+INFO :                        (33, np.float64(0.5187)),
+INFO :                        (34, np.float64(0.5153)),
+INFO :                        (35, np.float64(0.5112)),
+INFO :                        (36, np.float64(0.511)),
+INFO :                        (37, np.float64(0.5033)),
+INFO :                        (38, np.float64(0.5042)),
+INFO :                        (39, np.float64(0.4962)),
+INFO :                        (40, np.float64(0.4874)),
+INFO :                        (41, np.float64(0.4886)),
+INFO :                        (42, np.float64(0.4828)),
+INFO :                        (43, np.float64(0.4823)),
+INFO :                        (44, np.float64(0.4814)),
+INFO :                        (45, np.float64(0.4742)),
+INFO :                        (46, np.float64(0.4676)),
+INFO :                        (47, np.float64(0.4641)),
+INFO :                        (48, np.float64(0.4549)),
+INFO :                        (49, np.float64(0.4473)),
+INFO :                        (50, np.float64(0.4459)),
+INFO :                        (51, np.float64(0.4453)),
+INFO :                        (52, np.float64(0.4373)),
+INFO :                        (53, np.float64(0.4345)),
+INFO :                        (54, np.float64(0.4283)),
+INFO :                        (55, np.float64(0.4248)),
+INFO :                        (56, np.float64(0.4267)),
+INFO :                        (57, np.float64(0.4189)),
+INFO :                        (58, np.float64(0.4093)),
+INFO :                        (59, np.float64(0.4028)),
+INFO :                        (60, np.float64(0.3962)),
+INFO :                        (61, np.float64(0.3984)),
+INFO :                        (62, np.float64(0.3964)),
+INFO :                        (63, np.float64(0.3861)),
+INFO :                        (64, np.float64(0.3877)),
+INFO :                        (65, np.float64(0.3826)),
+INFO :                        (66, np.float64(0.3795)),
+INFO :                        (67, np.float64(0.3759)),
+INFO :                        (68, np.float64(0.3722)),
+INFO :                        (69, np.float64(0.3668)),
+INFO :                        (70, np.float64(0.3661)),
+INFO :                        (71, np.float64(0.3606)),
+INFO :                        (72, np.float64(0.3608)),
+INFO :                        (73, np.float64(0.3592)),
+INFO :                        (74, np.float64(0.3458)),
+INFO :                        (75, np.float64(0.3539)),
+INFO :                        (76, np.float64(0.3439)),
+INFO :                        (77, np.float64(0.3448)),
+INFO :                        (78, np.float64(0.3398)),
+INFO :                        (79, np.float64(0.3418)),
+INFO :                        (80, np.float64(0.3321)),
+INFO :                        (81, np.float64(0.3284)),
+INFO :                        (82, np.float64(0.3321)),
+INFO :                        (83, np.float64(0.3259)),
+INFO :                        (84, np.float64(0.3255)),
+INFO :                        (85, np.float64(0.3221)),
+INFO :                        (86, np.float64(0.3206)),
+INFO :                        (87, np.float64(0.3137)),
+INFO :                        (88, np.float64(0.3201)),
+INFO :                        (89, np.float64(0.3117)),
+INFO :                        (90, np.float64(0.3153)),
+INFO :                        (91, np.float64(0.311)),
+INFO :                        (92, np.float64(0.3055)),
+INFO :                        (93, np.float64(0.3041)),
+INFO :                        (94, np.float64(0.3048)),
+INFO :                        (95, np.float64(0.3022)),
+INFO :                        (96, np.float64(0.2998))]}
