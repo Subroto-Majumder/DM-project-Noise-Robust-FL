@@ -53,7 +53,7 @@ $$
 
 where $H_i^{(t)}$ is the interaction history, $R_0$ is the initial reputation, and $\epsilon$ is a small value (e.g., 1e-9).
 
-6.  **Weighted Aggregation:** Aggregates model parameters from clients with $R_i^{(t)} \ge \text{reputation\_threshold}$, weighting each client's contribution by $R_i^{(t)} \times \text{num\_examples}$.
+6.  **Weighted Aggregation:** Aggregates model parameters from clients with $R_i^{(t)} \ge \text{reputation threshold}$, weighting each client's contribution by $R_i^{(t)} \times \text{num examples}$.
 
 ## Usage
 
