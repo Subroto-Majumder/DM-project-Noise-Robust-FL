@@ -64,7 +64,7 @@ filename+=".txt"
 
 echo "Output filename will be: $folder/$filename"
 
-python_script_name="approach4_final.py"
+python_script_name="main.py"
 echo "Running: python3 $python_script_name ${python_args[@]}"
 python3 "$python_script_name" "${python_args[@]}" > "$folder/$filename" 2>&1
 
